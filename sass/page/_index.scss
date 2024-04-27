@@ -10,20 +10,22 @@
 .Grow-card{
     width: 90%;
     height: 150px;
-    background-color: white;
-    box-shadow: 5px,5px ;
-    border: 2px solid;
-    border-color: gray;
+    box-shadow: 5px 5px 10px lightgray;
     border-radius: 10px;
+    background-image: url("/public/images/illustration-grow-together.svg");
 
 }
 
 .Flow-card{
-    display: flex;
-    align-items: center;
-    width: 45%;
+    width: 90%;
+    box-shadow:5px 5px 10px lightgray;
+    border-radius: 10px;
+    height: 150px;
 }
 
 .your-card{
-
+    width: 90%;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    height: 150px;
 }
