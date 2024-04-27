@@ -3,8 +3,14 @@
     position: absolute;
 }
 
-.Grow-card,
-.Flow-card,
+.Grow-card{
+    display: flex;
+}
+
+.Flow-card{
+
+}
+
 .your-card{
-    
+
 }
