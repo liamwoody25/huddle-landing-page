@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+}
+.header__logo {
+  width: 40%;
+}
+
+/*****font-sizes****/
+body {
+  font-family: "open-sans", sans-serif;
+  background-image: url("./images/bg-hero-desktop.svg");
+}
+
+.nav-container {
+  display: flex;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
