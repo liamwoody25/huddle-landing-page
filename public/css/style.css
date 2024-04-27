@@ -1,3 +1,7 @@
+.header {
+  background-color: #EBFBFF;
+  display: flex;
+}
 .header__logo {
   width: 40%;
 }
@@ -7,7 +11,7 @@ body {
   font-family: "open-sans", sans-serif;
   background-image: url("./images/bg-hero-desktop.svg");
   background-image: url("./images/illustration-mockups.svg");
-  background-color: #EBFBFF;
+  margin: 0;
 }
 
 .nav-container {
@@ -20,7 +24,19 @@ body {
 }
 
 .Grow-card {
-  box-shadow: 5px;
+  width: 90%;
+  height: 150px;
+  background-color: white;
+  box-shadow: 5px, 5px;
+  border: 2px solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+
+.Flow-card {
+  display: flex;
+  align-items: center;
+  width: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */

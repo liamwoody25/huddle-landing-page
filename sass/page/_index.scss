@@ -8,12 +8,20 @@
 }
 
 .Grow-card{
-    box-shadow: 5px;
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    box-shadow: 5px,5px ;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
 
 }
 
 .Flow-card{
-
+    display: flex;
+    align-items: center;
+    width: 45%;
 }
 
 .your-card{
