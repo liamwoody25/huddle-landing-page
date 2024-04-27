@@ -1,25 +1,18 @@
-.header__logo {
-  width: 40%;
-}
+/* Error: Expected expression.
+ *    ,
+ * 11 |     background-color: ;
+ *    |                       ^
+ *    '
+ *   sass/base/_typeography.scss 11:23  @import
+ *   sass/main.scss 2:8                 root stylesheet */
 
-/*****font-sizes****/
-body {
-  font-family: "open-sans", sans-serif;
-  background-image: url("./images/bg-hero-desktop.svg");
-  background-image: url("./images/illustration-mockups.svg");
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a    \2577 \a 11 \2502      background-color: ;\a    \2502                        ^\a    \2575 \a   sass/base/_typeography.scss 11:23  @import\a   sass/main.scss 2:8                 root stylesheet";
 }
-
-.nav-container {
-  display: flex;
-  position: absolute;
-}
-
-.intro-section {
-  background-color: white;
-}
-
-.Grow-card {
-  box-shadow: 5;
-}
-
-/*# sourceMappingURL=style.css.map */
