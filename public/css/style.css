@@ -3,7 +3,8 @@
   display: flex;
 }
 .header__logo {
-  width: 40%;
+  position: absolute;
+  padding-top: 5px;
 }
 
 /*****font-sizes****/
