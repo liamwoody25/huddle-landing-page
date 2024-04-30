@@ -3,6 +3,8 @@
   display: flex;
 }
 .header__logo {
+  width: 30%;
+  height: 50px;
   position: absolute;
   padding-top: 5px;
 }
@@ -18,7 +20,6 @@ body {
 
 .nav-container {
   display: flex;
-  position: absolute;
 }
 
 .intro-section {
