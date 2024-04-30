@@ -12,6 +12,7 @@ body {
   background-image: url("./images/bg-hero-desktop.svg");
   background-image: url("./images/illustration-mockups.svg");
   margin: 0;
+  background-image: url("./images/illustration-mockups.svg");
 }
 
 .nav-container {
@@ -24,23 +25,26 @@ body {
 }
 
 .Grow-card {
+  margin-left: 60px;
   width: 90%;
   height: 150px;
-  box-shadow: 5px 5px 10px lightgray;
-  border-radius: 10px;
-  background-image: url("/public/images/illustration-grow-together.svg");
+  box-shadow: 5px 5px 15px lightgray;
+  border-radius: 5px;
+  background-image: url("./images/illustration-grow-together.svg");
 }
 
 .Flow-card {
+  margin-left: 60px;
   width: 90%;
   box-shadow: 5px 5px 10px lightgray;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 150px;
 }
 
 .your-card {
+  margin-left: 60px;
   width: 90%;
-  box-shadow: 5px 5px 10px lightgray;
+  box-shadow: 5px 5px 15px lightgray;
   border-radius: 10px;
   height: 150px;
 }
