@@ -20,10 +20,10 @@
 .Grow-card{
     margin-left: 60px;
     width: 90%;
-    height: 200px;
-    box-shadow: 5px 5px 15px lightgray;
-    border-radius: 5px;
-    background-image: url("/images/illustration-grow-together.svg");
+    height: 250px;
+    box-shadow: 0 5px 8px  lightgray;
+    border-radius: 9px;
+    background-image: url("./images/illustration-grow-together.svg");
     display: flex;
     text-align: center;
     gap: 20px;
@@ -31,6 +31,7 @@
 }
 
 .Flow-card{
+    background-image: url("./images/illustration-flowing-conversation.svg");
     margin-left: 60px;
     width: 90%;
     box-shadow:5px 5px 10px lightgray;
