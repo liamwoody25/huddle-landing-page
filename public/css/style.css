@@ -63,13 +63,12 @@ body {
 }
 
 .footer {
-  /****background-color:#00252E;**/
+  background-color: #00252E;
   height: 150%;
 }
 .footer__logo {
   width: 15%;
   height: 35%;
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
