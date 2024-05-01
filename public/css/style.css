@@ -28,14 +28,14 @@ body {
   padding-left: 15px;
 }
 .info-section .Grow-card {
+  display: flex;
+  text-align: start;
   margin-left: 60px;
   width: 90%;
   height: 250px;
   box-shadow: 0 5px 8px lightgray;
   border-radius: 9px;
   background-image: url("./images/illustration-grow-together.svg");
-  display: flex;
-  text-align: center;
   gap: 20px;
 }
 .info-section .Flow-card {
