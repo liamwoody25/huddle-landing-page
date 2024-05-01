@@ -16,7 +16,6 @@ body {
   background-image: url("./images/bg-hero-desktop.svg");
   background-image: url("./images/illustration-mockups.svg");
   margin: 0;
-  background-image: url("./images/illustration-mockups.svg");
 }
 
 .nav-container {
@@ -30,10 +29,12 @@ body {
 .Grow-card {
   margin-left: 60px;
   width: 90%;
-  height: 150px;
+  height: 200px;
   box-shadow: 5px 5px 15px lightgray;
   border-radius: 5px;
-  background-image: url("./images/illustration-grow-together.svg");
+  background-image: url("/images/illustration-grow-together.svg");
+  display: flex;
+  justify-content: center;
 }
 
 .Flow-card {
@@ -59,7 +60,8 @@ body {
   border-radius: 25px;
   border: 0;
   color: #000;
-  box-shadow: 5px 5px 10px lightgray;
+  box-shadow: 0 4px 8px 0px lightgray;
+  font-weight: 400;
 }
 
 .footer {

@@ -1,5 +1,6 @@
 .nav-container{
     display: flex;
+    
 
 }
 
@@ -10,10 +11,12 @@
 .Grow-card{
     margin-left: 60px;
     width: 90%;
-    height: 150px;
+    height: 200px;
     box-shadow: 5px 5px 15px lightgray;
     border-radius: 5px;
-    background-image: url("./images/illustration-grow-together.svg");
+    background-image: url("/images/illustration-grow-together.svg");
+    display: flex;
+    justify-content: center;
     
 
 }
