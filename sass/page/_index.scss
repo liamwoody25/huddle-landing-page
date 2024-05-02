@@ -41,8 +41,9 @@
     height: 250px;
 }
 
-.your-card{
-    background-image: url("./public/images/illustration-your-users.svg");
+.Your-card{
+    display: flex;
+    background-image: url("./images/illustration-your-users.svg");
     margin-left:14%;
     width: 70%;
     box-shadow: 0 1px 5px lightgray;
