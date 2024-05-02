@@ -19,8 +19,17 @@ body {
   margin: 0;
 }
 
+/******heading*****/
+/*****paragraphs****/
+.Grow,
+.flow,
+.Your {
+  font-size: 14px;
+}
+
 .nav-container {
   display: flex;
+  align-items: baseline;
 }
 
 .info-section {
@@ -30,27 +39,29 @@ body {
 }
 .info-section .Grow-card {
   display: flex;
-  text-align: start;
-  margin-left: 60px;
-  width: 90%;
+  justify-content: center;
+  text-align: end;
+  margin-left: 50px;
+  width: 70%;
   height: 250px;
-  box-shadow: 0 5px 8px lightgray;
+  box-shadow: 0 1px 8px lightgray;
   border-radius: 9px;
   background-image: url("./images/illustration-grow-together.svg");
   gap: 20px;
 }
 .info-section .Flow-card {
+  display: flex;
   background-image: url("./images/illustration-flowing-conversation.svg");
   margin-left: 60px;
   width: 90%;
-  box-shadow: 5px 5px 10px lightgray;
+  box-shadow: 0 1px 5px lightgray;
   border-radius: 5px;
   height: 150px;
 }
 .info-section .your-card {
   margin-left: 60px;
   width: 90%;
-  box-shadow: 5px 5px 15px lightgray;
+  box-shadow: 0 1px 5px lightgray;
   border-radius: 10px;
   height: 150px;
 }
