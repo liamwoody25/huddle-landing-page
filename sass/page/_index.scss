@@ -14,18 +14,22 @@
     background-color: white;
     padding-top: 50px;
     padding-left: 15px;
-    
 
 
 
 .Grow-card{
+    display: flex;
     background-image: url("./images/illustration-grow-together.svg");
-    justify-content: center;
-    margin-left: 14%;
-    width: 50%;
-    height: 290px;
+    margin-left: 4%;
+    width: 90%;
+    height: 350px;
     box-shadow: 0 1px 8px  lightgray;
     border-radius: 9px;
+
+    
+    &__image{
+        width: 100px;
+    }
 }
 
 .Flow-card{
@@ -34,17 +38,17 @@
     margin-left: 14%;
     width: 70%;
     box-shadow:0 1px 5px lightgray;
-    border-radius: 5px;
-    height: 250px;
+    border-radius: 15px;
+    height: 290px;
 }
 
 .Your-card{
-    background-image: url("./images/illustration-your-users.svg");
+    display: flex;
     margin-left:14%;
-    width: 10%;
+    width: 70%;
     box-shadow: 0 1px 5px lightgray;
-    border-radius: 10px;
-    height: 250px;
+    border-radius: 15px;
+    height: 290px;
 }
 
 }
