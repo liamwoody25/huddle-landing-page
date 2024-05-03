@@ -23,7 +23,6 @@ body {
 /*****paragraphs****/
 .nav-container {
   display: flex;
-  align-items: baseline;
 }
 
 .info-section {
