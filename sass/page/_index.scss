@@ -26,20 +26,17 @@
     box-shadow: 0 1px 8px  lightgray;
     border-radius: 9px;
 
-    
-    &__image{
-        width: 100px;
-    }
+
 }
 
 .Flow-card{
     display: flex;
     background-image: url("./images/illustration-flowing-conversation.svg");
-    margin-left: 14%;
-    width: 70%;
+    margin-left: 4%;
+    width: 90%;
     box-shadow:0 1px 5px lightgray;
     border-radius: 15px;
-    height: 290px;
+    height: 350px;
 }
 
 .Your-card{
