@@ -84,18 +84,6 @@ body {
   box-shadow: 0 4px 8px 0px;
 }
 
-.btn {
-  width: 290px;
-  height: 50px;
-  border-radius: 25px;
-  border: 0;
-  background-color: #FF52BF;
-  color: #fff;
-  font-weight: 400;
-  font-size: 14px;
-  box-shadow: 0 4px 8px 0px;
-}
-
 .footer {
   background-color: #00252E;
   height: 150%;
