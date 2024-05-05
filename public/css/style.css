@@ -29,6 +29,7 @@ body {
   background-color: white;
   padding-top: 50px;
   padding-left: 15px;
+  margin-top: 25px;
 }
 .info-section .Grow-card {
   display: flex;
@@ -41,7 +42,7 @@ body {
 }
 .info-section .Flow-card {
   display: flex;
-  background-image: url("./images/illustration-flowing-conversation.svg");
+  background-image: url("./public/images/illustration-flowing-conversation.svg");
   margin-left: 4%;
   width: 90%;
   box-shadow: 0 1px 5px lightgray;
@@ -50,6 +51,7 @@ body {
 }
 .info-section .Your-card {
   display: flex;
+  background-image: url("./public/images/illustration-your-users.svg");
   margin-left: 4%;
   width: 90%;
   box-shadow: 0 1px 5px lightgray;
@@ -58,7 +60,18 @@ body {
 }
 
 .bottom-section {
-  width: 150px;
+  display: flex;
+  width: 50%;
+  height: 210px;
+  box-shadow: 0 1px 5px lightgray;
+  margin-left: 4%;
+  border-radius: 15px;
+  position: absolute;
+}
+.bottom-section__content-card {
+  display: flex;
+  width: 50%;
+  padding-left: 25px;
 }
 
 .nav-btn {
@@ -85,12 +98,12 @@ body {
 }
 
 .footer {
-  background-color: #00252E;
-  height: 150%;
+  /***background-color:#00252E;***/
+  height: 50%;
 }
 .footer__logo {
   width: 15%;
-  height: 35%;
+  height: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
