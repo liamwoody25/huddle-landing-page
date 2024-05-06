@@ -1,6 +1,9 @@
-.nav-container{
-    display: flex;
+.nav-menu{
 
+}
+
+.intro-container{
+    display: flex;
 }
 
 .info-section{
@@ -13,12 +16,16 @@
 
 .Grow-card{
     display: flex;
-    background-image: url("./images/illustration-grow-together.svg");
     margin-left: 4%;
     width: 90%;
     height: 350px;
     box-shadow: 0 1px 8px  lightgray;
     border-radius: 9px;
+
+    &__image{
+        width: 100px;
+        height: 50px;
+    }
 }
 
 .Flow-card{
