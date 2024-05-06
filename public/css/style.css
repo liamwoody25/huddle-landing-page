@@ -1,3 +1,7 @@
+.header {
+  display: flex;
+  background-color: #EBFBFF;
+}
 .header__logo {
   width: 15%;
   height: 35px;
@@ -10,9 +14,7 @@
 /****font-stack****/
 body {
   font-family: "open-sans", sans-serif;
-  background-image: url("./public/images/bg-hero-desktop.svg");
   background-image: url("./images/illustration-mockups.svg");
-  background-color: #EBFBFF;
   margin: 0;
 }
 
@@ -21,10 +23,6 @@ body {
 .nav-header {
   display: flex;
   justify-content: flex-end;
-}
-
-.intro-container {
-  display: flex;
 }
 
 .info-section {
@@ -91,7 +89,7 @@ body {
 }
 
 .btn {
-  width: 290px;
+  width: 280px;
   height: 50px;
   border-radius: 25px;
   border: 0;
