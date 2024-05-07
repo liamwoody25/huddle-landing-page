@@ -1,11 +1,14 @@
-.nav-header{
+.nav-container{
     display: flex;
     justify-content: flex-end;
 }
 
+.intro-section{
+    background-color:#EBFBFF;
+}
+
 
 .info-section{
-    background-color: white;
     padding-top: 50px;
     padding-left: 15px;
     margin-top: 25px;

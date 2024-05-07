@@ -1,13 +1,13 @@
 .header {
-  display: flex;
-  background-color: #EBFBFF;
+  width: 50px;
+  position: absolute;
+  right: 5%;
+  margin-top: 55px;
 }
 .header__logo {
-  width: 15%;
-  height: 35px;
+  width: 190px;
+  height: 34px;
   position: absolute;
-  left: 4%;
-  top: 5%;
 }
 
 /*****font****/
@@ -20,13 +20,16 @@ body {
 
 /******heading*****/
 /*****paragraphs****/
-.nav-header {
+.nav-container {
   display: flex;
   justify-content: flex-end;
 }
 
+.intro-section {
+  background-color: #EBFBFF;
+}
+
 .info-section {
-  background-color: white;
   padding-top: 50px;
   padding-left: 15px;
   margin-top: 25px;
