@@ -11,12 +11,17 @@ $font-stack-2:'poppins',sans-serif;
 //body
 body{
     font-family:$font-stack-1;
-    background-image: url("./images/illustration-mockups.svg");
     margin: 0;
 }
 
 /******heading*****/
-
+.intro,
+.Grow,
+.Flow,
+.Your{
+    font-family: $font-stack-2;
+    font-weight:600px;
+}
 
 
 
