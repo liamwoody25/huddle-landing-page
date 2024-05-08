@@ -32,7 +32,6 @@ body {
 .intro-container {
   background-color: #EBFBFF;
   display: flex;
-  margin-top: 50px;
 }
 .intro-container__img {
   justify-content: center;
