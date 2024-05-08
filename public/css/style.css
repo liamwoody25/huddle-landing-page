@@ -1,13 +1,12 @@
 .header {
   width: 50px;
+  margin-top: 50px;
   position: absolute;
-  right: 5%;
-  margin-top: 55px;
+  display: flex;
 }
 .header__logo {
   width: 190px;
   height: 34px;
-  position: absolute;
 }
 
 /*****font****/
@@ -29,7 +28,6 @@ body {
 /*****paragraphs****/
 .nav-container {
   display: flex;
-  justify-content: flex-end;
 }
 
 .intro {
