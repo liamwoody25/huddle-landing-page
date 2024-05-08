@@ -1,11 +1,18 @@
 .nav-container{
     display: flex;
-   
     
 }
 
-.intro{
+.intro-container{
     background-color:#EBFBFF;
+    display: flex;
+    margin-top: 50px;
+
+
+
+    &__img{
+        justify-content: center;
+    }
 }
 
 
